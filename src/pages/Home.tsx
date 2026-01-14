@@ -22,43 +22,13 @@ const Home = () => {
         </div>
       </div>
       <div className="flex-1 md:flex-2 bg-blue-200 overflow-y-auto scroll-smooth overflow-hidden">
-        <div className="relative h-[900px] w-full bg-white">
+        <div className="relative h-[1080px] w-full bg-white">
           <img
-            src="/images/first_header.png"
-            alt="First Header"
-            className="absolute top-[-8px]"
+            src="/images/page1.png"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
           />
-          <img
-            src="/images/first_mountain.png"
-            alt="First Mountain"
-            className="w-[120%] max-w-none left-1/2 -translate-x-1/2 absolute z-1"
-          />
-          <img
-            src="/images/first_tree_left.png"
-            alt="First Tree Left"
-            className="absolute z-2 w-[525px] left-[-225px] top-[90px]"
-          />
-          <img
-            src="/images/first_tree_right.png"
-            alt="First Tree Left"
-            className="absolute z-2 w-[525px] right-[-225px] top-[90px]"
-          />
-          <img
-            src="/images/first_house.png"
-            alt="First House"
-            className="absolute z-3 top-[250px] left-1/2 -translate-x-1/2 w-[80%]"
-          />
-          <img
-            src="/images/first_field.png"
-            alt="First Field"
-            className="absolute z-2 bottom-0 left-1/2 -translate-x-1/2 w-[140%] max-w-none"
-          />
-          <img
-            src="/images/first_bottom.png"
-            alt="First Bottom"
-            className="absolute z-3 bottom-0 left-1/2 -translate-x-1/2 w-[125%] max-w-none"
-          />
-          <div className="relative z-10 w-[300px] h-[450px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white/60 backdrop-blur-xs border border-white/40 rounded-[50%/40%] shadow-2xl flex flex-col items-center justify-center p-12 text-center">
+          <div className="relative z-10 w-[325px] h-[500px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white/60 backdrop-blur-xs border border-white/40 rounded-[50%/40%] shadow-2xl flex flex-col items-center justify-center p-12 text-center">
             <div className="animate-[float_6s_ease-in-out_infinite]"></div>
             <p className="mb-4">Hai Anonim & Partner</p>
             <button className="bg-[#445d3f] text-white px-2 py-2 rounded-md">
@@ -69,7 +39,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <img src="/images/wedding1.png" alt="Image 1" />
+        <img src="/images/page2.png" alt="Image 1" />
         <img src="/images/wedding2.png" alt="Image 2" />
       </div>
     </MainLayout>
